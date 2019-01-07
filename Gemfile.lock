@@ -453,6 +453,7 @@ GEM
       unicode-display_width (~> 1.0, >= 1.0.1)
     ruby-progressbar (1.10.0)
     ruby_dep (1.5.0)
+    ruby_postal (1.0.0)
     rubyzip (1.2.2)
     safe_yaml (1.0.4)
     sanitize (5.0.0)
@@ -628,6 +629,7 @@ DEPENDENCIES
   rspec-activemodel-mocks
   rspec-rails (~> 3)
   rubocop (= 0.58.0)
+  ruby_postal
   sanitize
   sass-rails
   selenium-webdriver

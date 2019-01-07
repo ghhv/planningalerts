@@ -53,6 +53,9 @@ gem "will_paginate"
 gem "geokit"
 # geocoder is only used for the near activerecord method
 gem "geocoder"
+# For converting free form addresses to semi-structured data as a pre-processing
+# step in geocoding
+gem "ruby_postal"
 
 # CSS related stuff
 gem "autoprefixer-rails"

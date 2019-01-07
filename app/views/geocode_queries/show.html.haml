@@ -1,5 +1,16 @@
 %h3= @geocode_query.query
 
+%p
+  Address as it's split apart by
+  = link_to "libpostal", "https://github.com/openvenues/libpostal"
+
+%ul
+  - @address_split.each do |entry|
+    %li
+      = entry[:label]
+      \=
+      = entry[:value]
+
 :css
   #geocoding-map {
     height: 500px;
